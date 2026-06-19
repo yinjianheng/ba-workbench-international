@@ -1,64 +1,86 @@
-# Business Analysis Super Workbench
+# 📊 Business Analysis Super Workbench v1.1.0
 
-> **Author**: yinjianheng | **Version**: 1.1.0 | **Date**: 2026-06-16
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/yinjianheng/ba-workbench-international)
+[![License](https://img.shields.io/badge/license-Personal%20Use%20Only-red)](./LICENSE)
+[![Author](https://img.shields.io/badge/author-yinjianheng-orange)](https://github.com/yinjianheng)
+[![Platform](https://img.shields.io/badge/platform-WuKong%20%7C%20Claude%20%7C%20OpenClaw-brightgreen)](https://github.com/yinjianheng)
 
-## One-Liner
+> **World-Class Business Analysis Full-Stack AI Workbench | 14 Phases · 100+ Frameworks · 50+ Deliverables · 8 BA Roles**
+>
+> Deeply integrated with IIBA BABOK V3 · PMI-PBA · McKinsey/BCG/Bain/Deloitte methodologies · Fortune 500 best practices
 
-**Business Analysis Super Workbench** — A full-stack automation skill for business analysts, requirements analysts, and product managers. Covers the complete BA lifecycle from requirements discovery to solution delivery.
+---
 
-## Core Capabilities
+## 🎯 Why This Skill?
 
-| Phase | Capability | Deliverables |
-|------|------|--------|
-| Requirements Discovery | Stakeholder analysis, interview framework, requirements clarification | Stakeholder matrix, requirements interview notes |
-| Requirements Analysis | Business process modeling, use case analysis, data modeling | Business process diagrams, use case documents, data dictionary |
-| Requirements Management | Prioritization, requirements traceability matrix, change management | Requirements traceability matrix, change request documents |
-| Solution Design | BRD, Business Case, functional specifications | BRD, Business Case, FRD |
-| Verification & Delivery | UAT, acceptance criteria, deliverable checklist | UAT test cases, acceptance report |
+| Pain Point | Solution |
+|------------|----------|
+| 📚 BABOK is too dense — where to start? | **14-Phase Structured Navigation**: From strategy analysis to change management, jump to what you need |
+| 🧩 Too many analysis frameworks — which one to use? | **100+ Framework Quick Reference**: PESTLE · SWOT · Porter's Five Forces · BCG Matrix · DCF · BMC — one-click |
+| 📝 Business documents take forever, formatting is inconsistent | **10+ Professional Templates**: BRD · Business Case · Competitive Analysis · Financial Analysis — fill and go |
+| 🎓 Junior BAs grow slowly without systematic guidance | **8 BA Role Archetypes**: Strategy BA / Business BA / Technical BA / Data BA / Process BA / Digital Transformation BA / Product BA / Enterprise BA |
 
-## Methodology Arsenal
+---
 
-- **BABOK Six Knowledge Areas**: Requirements Analysis / Planning & Monitoring / Requirements Lifecycle Management / Strategy Analysis / Requirements Analysis and Design Definition / Solution Evaluation
-- **MoSCoW Prioritization**: Must have / Should have / Could have / Won't have
-- **Kano Model**: Basic / Performance / Excitement requirement classification + satisfaction analysis
-- **BDD (Behavior-Driven Development)**: Given-When-Then format + Specification by Example
-- **EventStorming**: Domain Events → Commands → Aggregates → Bounded Contexts
-- **BABOK Agile Extension**: User story mapping, product backlog, agile requirements management
-- **SWOT / PESTEL / Five Forces**: Strategic analysis toolkit
-- **ROI / NPV / Sensitivity Analysis**: Financial analysis tools
+## 🚀 Core Capability Matrix
 
-## Quick Install
+| Phase | Core Capability | Key Frameworks |
+|-------|----------------|---------------|
+| 1️⃣ Strategy & Industry Analysis | Macro environment · Industry trends · Market opportunities | PESTLE · Porter's Five Forces · SWOT · TOWS · VRIO |
+| 2️⃣ Market & Customer Insights | Market segmentation · Customer personas · Market sizing | TAM-SAM-SOM · Customer Journey Map · Jobs-to-Be-Done |
+| 3️⃣ Competitive Intelligence | Competitive analysis · Positioning · Benchmarking | BCG Matrix · GE-McKinsey · Ansoff · Blue Ocean |
+| 4️⃣ Financial Analysis & Modeling | Valuation · Profit forecasting · Investment analysis | DCF · NPV · IRR · Break-Even · Sensitivity |
+| 5️⃣ Business Model Design | Innovation · Validation · Iteration | BMC · Lean Canvas · Value Proposition Canvas |
+| 6️⃣ Stakeholder Management | Identification · Analysis · Communication | RACI · Power-Interest Matrix · Influence Map |
+| 7️⃣ Requirements Elicitation | Interviews · Workshops · Observation · Surveys | SPIN · 5Whys · Fishbone · User Stories |
+| 8️⃣ Requirements Analysis & Specification | Modeling · Prioritization · Validation | MoSCoW · Kano · BDD · EventStorming |
+| 9️⃣ Solution Evaluation | Comparison · Selection · Validation | Decision Matrix · AHP · Cost-Benefit Analysis |
+| 🔟 Business Case & Investment | Business case · ROI · Risk | Five Case Model · ROI · Sensitivity |
+| 1️⃣1️⃣ Business Process Analysis | Process modeling · Optimization · Reengineering | BPMN · Value Stream Map · SIPOC · Lean |
+| 1️⃣2️⃣ Data Analysis & BI | Data-driven decisions · Dashboards | Descriptive/Diagnostic/Predictive/Prescriptive Analytics |
+| 1️⃣3️⃣ Risk Analysis & Decision Science | Risk identification · Assessment · Response | FMEA · Decision Tree · Monte Carlo |
+| 1️⃣4️⃣ Implementation & Change | Change management · Execution | ADKAR · Kotter 8-Step · Balanced Scorecard |
+
+---
+
+## 📦 Quick Start
 
 ```bash
-cp -r ~/Desktop/ba-workbench ~/.claude/skills/ba-workbench
+cp -r ba-workbench-international ~/.claude/skills/
 ```
 
-## Trigger Methods
+**Trigger**: Just describe your need — supports 30+ Chinese aliases and 10+ English aliases:
+- "Run an industry analysis"
+- "Write a Business Case"
+- "Conduct competitive analysis"
+- "Do stakeholder analysis"
+- "Evaluate this business model"
 
-Simply describe your requirements. Supports 30+ Chinese aliases and 10+ English aliases.
+---
 
-## Version History
+## 🔗 Related Skills
 
-| Version | Date | Changes |
-|------|------|---------|
-| v1.1.0 | 2026-06-16 | Deep Upgrade: MoSCoW prioritization, Kano model, BDD, EventStorming, BABOK Agile Extension |
-| v1.0.0 | 2026-06-02 | Initial release |
+| Skill | Focus | Repository |
+|-------|-------|------------|
+| [it-consulting-workbench-international](https://github.com/yinjianheng/it-consulting-workbench-international) | IT Consulting Workbench | IT Strategy · Digital Transformation · Tech DD |
+| [sa-pro-workbench-international](https://github.com/yinjianheng/sa-pro-workbench-international) | Solution Architect Workbench | Architecture · Diagrams · Bidding |
+| [b2b-pm-workbench-international](https://github.com/yinjianheng/b2b-pm-workbench-international) | B2B PM Workbench | PRD · SaaS · AI Products |
 
-## Copyright Notice
+> 💡 **Chinese Edition**: [ba-workbench](https://github.com/yinjianheng/ba-workbench) — China-focused business analysis assistant
 
-Copyright © 2026 **yinjianheng (Yin Jianheng)**. All rights reserved.
+---
 
-This Skill (ba-workbench) is an independent original work by **yinjianheng (Yin Jianheng)**.
+## 📄 License
 
-- ✅ **Permitted**: Personal study, research, non-commercial project use
-- ❌ **Prohibited**: Commercial use without written authorization
-- 📧 **Commercial Licensing**: yinjianheng@foxmail.com
+**Notice**: This Skill is a personal open-source project for personal learning, research, and non-commercial use only. Any form of commercial use (including but not limited to resale, bundled sales, commercial training, SaaS-based services) is strictly prohibited without the author's written authorization. The author has retained a professional IP legal team for global monitoring; infringement will be prosecuted.
 
-## Disclaimer
+---
 
-This Skill is provided "as is". The author makes no warranties regarding its completeness, accuracy, or fitness for a particular purpose. Any consequences arising from the use of this Skill shall be borne by the user. AI-assisted tool outputs may contain biases or errors; users should conduct their own review and verification.
-
-## Dependencies
-
-- **Required**: None (core capabilities do not depend on external tools)
-- **Recommended**: draw.io desktop edition (for diagramming needs)
+<p align="center">
+  <b>👨‍💻 yinjianheng (Yin Jianheng)</b> &nbsp;|&nbsp;
+  📧 yinjianheng@foxmail.com &nbsp;|&nbsp;
+  💬 WeChat: YJH-yinjianheng
+</p>
+<p align="center">
+  <sub>⭐ If this Skill helps you, please give it a Star to help others discover it!</sub>
+</p>
